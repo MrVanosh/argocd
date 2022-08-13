@@ -38,10 +38,10 @@ metadata:
 spec:
   tls:
   - hosts:
-      - nginx.x3dshop.com
+      - nginx.x3dshop.pl
     secretName: testsecret-tls
   rules:
-  - host: nginx.x3dshop.com
+  - host: nginx.x3dshop.pl
     http:
       paths:
       - path: /
